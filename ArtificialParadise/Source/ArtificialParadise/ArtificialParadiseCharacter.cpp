@@ -208,7 +208,7 @@ void AArtificialParadiseCharacter::HoldToggle()
 
 	if (GetWorld()->LineTraceSingleByChannel(OutHit, FirstPersonCameraComponent->GetComponentLocation(), HeldObjectLocation->GetComponentLocation(), ECC_WorldDynamic, CollisionParams))
 	{
-		if (OutHit.bBlockingHit)
+		if (OutHit.bBlockingHit && OutHit.GetComponent()->Mobility.GetValue() == EComponentMobility::Movable)
 		{
 			if (GEngine) {
 				GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Red, FString::Printf(TEXT("You are hitting: %s"), *OutHit.GetActor()->GetName()));
