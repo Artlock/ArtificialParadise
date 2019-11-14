@@ -2,7 +2,8 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Engine.h"
+//#include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "ArtificialParadiseCharacter.generated.h"
 
