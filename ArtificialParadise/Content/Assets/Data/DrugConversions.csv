@@ -1,7 +1,19 @@
-Name,Conversion
-Marijuana,"(Surnames=(""Chlorophylle"", ""Pistache"", ""Eucalyptus""))"
-Ecstasy,"(Surnames=(""Plume"", ""Noyau"", ""Aspirine""))"
-LSD,"(Surnames=(""Tableau"", ""Jus de fruit"", ""Gouttes""))"
-Cocaine,"(Surnames=(""Blanc d'oeuf"", ""Noix de coco"", ""Vitamine""))"
-Heroine,"(Surnames=(""Pinceau"", ""Fleur"", ""Sirop""))"
-All,"(Surnames=(""Palette de couleur"", ""Salade de fruits"", ""Trousse de secours""))"
+,Name,Conversion
+0,Chlorophylle,Marijuana
+1,Pistache,Marijuana
+2,Eucalyptus,Marijuana
+3,Plume,Ecstasy
+4,Noyau,Ecstasy
+5,Aspirine,Ecstasy
+6,Tableau,LSD
+7,Jus de fruit,LSD
+8,Gouttes,LSD
+9,Blanc d'oeuf,Cocaine
+10,Noix de coco,Cocaine
+11,Vitamine,Cocaine
+12,Pinceau,Heroine
+13,Fleur,Heroine
+14,Sirop,Heroine
+15,Palette de couleur,All
+16,Salade de fruits,All
+17,Trousse de secours,All
